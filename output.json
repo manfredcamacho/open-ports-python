@@ -1,0 +1,45 @@
+{
+    "192.168.0.1": {
+        "tcp": {
+            "53": "domain dnsmasq 2.83",
+            "80": "http lighttpd ",
+            "443": "http lighttpd ",
+            "49152": "upnp Portable SDK for UPnP devices 1.6.18"
+        },
+        "udp": {
+            "53": "domain dnsmasq 2.83",
+            "67": "dhcps  ",
+            "161": "snmp Texas Instruments SNMPv3 server ",
+            "1900": "upnp  "
+        }
+    },
+    "192.168.0.103": {
+        "udp": {
+            "68": "dhcpc  ",
+            "515": "printer  "
+        }
+    },
+    "192.168.0.105": {
+        "udp": {
+            "1900": "upnp  ",
+            "5353": "zeroconf  "
+        }
+    },
+    "192.168.0.2": {
+        "tcp": {
+            "22": "ssh OpenSSH 6.6.0",
+            "80": "http  ",
+            "1900": "upnp  "
+        },
+        "udp": {
+            "1900": "upnp  "
+        }
+    },
+    "192.168.0.241": {
+        "udp": {
+            "137": "netbios-ns  ",
+            "138": "netbios-dgm  ",
+            "5353": "zeroconf  "
+        }
+    }
+}
