@@ -42,9 +42,11 @@ The output is a JSON file named output.json that contains the results of the sca
 }
 ```
 
-<host>: the IP address of the host.
-<protocol>: the protocol used by the open port (tcp or udp).
-<port>: the number of the open port.
-<banner>: the banner returned by the open port.
+- host: the IP address of the host.
+- protocol: the protocol used by the open port (tcp or udp).
+- port: the number of the open port.
+- banner: the banner returned by the open port.
 
 ## Example console output
+![terminal-output](https://user-images.githubusercontent.com/12779378/230731812-3fe25733-032f-4b1f-aa3f-60a3d744f6bb.png)
+
